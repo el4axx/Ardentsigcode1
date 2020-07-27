@@ -1,0 +1,133 @@
+<html>
+<head> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&family=Slabo+27px&display=swap" rel="stylesheet"> 
+<style> 
+.codedsig1pic { width: 530px; 
+                height: 120px; 
+                margin: 30px auto; 
+                position: relative; } 
+
+.codedsig1overlay { width: 520px; 
+                    height: 110px; 
+                    background-color: rgba(50,100,0,0); 
+                    padding: 5px; 
+                    transition: all ease-in-out .6s; } 
+                    
+.codedsig1border { width: 498px; 
+                   height: 88px; 
+                   border: 1px solid #FFF; 
+                   padding: 10px; } 
+                   
+.codedsig1lyrics1 { width: 160px; 
+                    height: 30px; 
+                    margin-top: 42px; 
+                    letter-spacing: -2px; 
+                    line-height: 100%; 
+                    text-align: justify; 
+                    text-transform: uppercase; 
+                    font-size: 30px; 
+                    font-family: playfair display; 
+                    font-weight: 900; 
+                    color: #FFF; 
+                    position: absolute; 
+                    overflow: hidden; }
+                    
+.codedsig1lyrics2 { width: 161px; 
+                    height: 25px; 
+                    margin-top: 68px; 
+                    letter-spacing: 2px; 
+                    line-height: 100%; 
+                    text-align: justify; 
+                    text-transform: uppercase; 
+                    font-size: 19px; 
+                    font-family: playfair display; 
+                    font-weight: 600; 
+                    color: #FFF; 
+                    position: absolute; 
+                    overflow: hidden; } 
+                    
+.codedsig1lyrics3 { width: 156px; 
+                    height:40px; 
+                    text-align: justify; 
+                    margin-top:-10px;
+                    padding: 12px 0px 0px 5px; 
+                    line-height: 170%; 
+                    letter-spacing: 3.5px; 
+                    text-transform: uppercase; 
+                    font-size: 6px; 
+                    font-family: Slabo 27px display; 
+                    color: #FFF;
+                    opacity: 0; 
+                    transition: all ease-in-out .6s; 
+                    position: absolute; 
+                    overflow: hidden; } 
+                    
+.codedsig1line1 { width: 1px; 
+                  height: 90px; 
+                  margin-left: 170px; 
+                  background-color: #FFF; 
+                  transform: scale(0); 
+                  transition: all ease-in-out .6s; 
+                  position: absolute; 
+                  overflow: hidden; }
+                  
+.codedsig1links { width: 300px;
+                  height: 100px; 
+                  margin-left: 186px; 
+                  margin-top:30px; 
+                  line-height: 20px; 
+                  text-align: center; 
+                  color: #ffffff; 
+                  opacity: 0; 
+                  transition: all ease-in-out .6s; 
+                  position: absolute; 
+                  overflow: hidden; } 
+                  
+.codedsig1links a { font-size: 14px; 
+                    font-family: playfair display; 
+                    font-weight: 600; 
+                    color: #FFFFFF;
+                    text-transform:uppercase; } 
+
+.codedsig1pic:hover .codedsig1overlay { background-color: rgba(0,0,0,.7); 
+                                        transition: all ease-in-out .6s; }
+                                        
+.codedsig1pic:hover .codedsig1lyrics3 { opacity: 1; 
+                                         transition: all ease-in-out 1s 1.2s; } 
+                                         
+.codedsig1pic:hover .codedsig1line1 { transform: scale(1); 
+                                      transition: all ease-in-out .6s; } 
+                                      
+.codedsig1pic:hover .codedsig1links { opacity: 1; 
+                                      transition: all ease-in-out 1s 1.2s; }
+                                      
+.codedsig1cpr { width: 495px; 
+                height: 50px; 
+                margin: -40px auto 0px; 
+                padding-right: 5px; 
+                line-height: 50px; 
+                text-align: right; 
+                font-size: 30px; 
+                opacity: 0; 
+                position: relative; 
+                z-index: 10; } 
+                
+.codedsig1cpr a { text-decoration: none; 
+                  font-weight: normal; 
+                  color: #FFF; } 
+                  
+.codedsig1cpr:hover { opacity: 1; } 
+
+</style> 
+</head> 
+<body> 
+<div class="codedsig1pic" style="background-image: url(https://i.servimg.com/u/f79/20/10/40/12/ardent11.jpg);"> 
+   <div class="codedsig1overlay"> 
+      <div class="codedsig1border"> 
+          <div class="codedsig1lyrics3">If only I don't bend and break, I'll meet you on the other side. I'll meet you in </div> 
+              <div class="codedsig1lyrics1">The Light do</div> <div class="codedsig1lyrics2">Ardentheart</div> 
+                  <div class="codedsig1line1"></div> 
+                      <div class="codedsig1links"><a href="https://www.warriorcatsnl.com/t38252-ardentheart">ARDENT</a> | <a href="url=https://docs.google.com/spreadsheets/d/1zrc1t5sC6kaozDsQ5E7wmHNVr5UEh3b3G2omj5b0VIo/edit#gid=0">Tracker</a> | <a href="link">Wanted</a></div>
+                          </div> </div> </div>  
+</body> 
+</html>
